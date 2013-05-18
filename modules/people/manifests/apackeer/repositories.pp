@@ -46,14 +46,14 @@ class people::apackeer::repositories (
   file { "/Users/${my_username}/.zshrc":
     ensure  => link,
     mode    => '0644',
-    target  => "${my_sourcedir}/dotfiles/zshrc",
+    target  => "${my_sourcedir}/dotfiles/.zshrc",
     require => Repository["${my_sourcedir}/dotfiles"],
   }
 
   file { "/Users/${my_username}/.vimrc":
     ensure => link,
     mode   => '0644',
-    target => "${my_sourcedir}/dotfiles/vimrc",
+    target => "${my_sourcedir}/dotfiles/.vimrc",
     require => Repository["${my_sourcedir}/dotfiles"],
   }
 }
