@@ -14,23 +14,34 @@ class people::apackeer::applications {
   include rdio
   include firefox
   include vagrant
+  include autojump
+
 
   ############
   # Packages #
   ############
 
-  package { 'coreutils': }
-  package { 'curl': }
-  package { 'dos2unix': }
-  package { 'gawk': }
-  package { 'netcat': }
-  package { 'nmap': }
-  package { 'ngrep': }
-  package { 'par2': }
-  package { 'tmux': }
-  package { 'tree': }
-  package { 'vim': }
-  package { 'zsh': }
+  package {
+    [
+      'coreutils',
+      'curl',
+      'dos2unix',
+      'gawk',
+      'netcat',
+      'nmap',
+      'ngrep',
+      'par2',
+      'tmux',
+      'tree',
+      'vim',
+      'zsh'
+    ]:
+  }
+
+  exec { 'Install virtualenv':
+    command     => 'pip install virtualenv virtualenvwrapper',
+    require => Class['python']
+  }
 
   package { 'Bartender':
     source   => 'http://www.macbartender.com/Demo/Bartender.zip',
