@@ -12,6 +12,8 @@ class people::apackeer::applications {
   include wget
   include vlc
   include rdio
+  include firefox
+  include vagrant
 
   ############
   # Packages #

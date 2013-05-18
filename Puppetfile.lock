@@ -1,12 +1,37 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-autojump
+  specs:
+    autojump (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (2.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.0.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -19,6 +44,11 @@ GITHUBTARBALL
     git (1.2.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-github_for_mac
+  specs:
+    github_for_mac (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.1.2)
@@ -27,6 +57,11 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -39,6 +74,26 @@ GITHUBTARBALL
     nodejs (2.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-rdio
+  specs:
+    rdio (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.0.2)
@@ -49,9 +104,44 @@ GITHUBTARBALL
     ruby (4.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (2.0.7)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vmware_fusion
+  specs:
+    vmware_fusion (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.1.0)
 
 GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
@@ -64,17 +154,35 @@ GITHUBTARBALL
     stdlib (4.0.2)
 
 DEPENDENCIES
+  alfred (= 1.0.2)
+  autojump (= 1.0.0)
   boxen (= 2.1.0)
+  caffeine (= 1.0.0)
+  chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
+  firefox (= 1.0.6)
   gcc (= 1.0.0)
   git (= 1.2.2)
+  github_for_mac (= 1.0.1)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
+  iterm2 (= 1.0.2)
   nginx (= 1.4.0)
   nodejs (= 2.2.0)
+  osx (= 1.2.0)
+  property_list_key (= 0.1.0)
+  python (= 1.1.1)
+  rdio (= 1.0.0)
   repository (= 2.0.2)
   ruby (= 4.1.0)
   stdlib (= 4.0.2)
+  sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
+  vagrant (= 2.0.7)
+  vim (= 1.0.3)
+  vlc (= 1.0.1)
+  vmware_fusion (= 1.0.0)
+  wget (= 1.0.0)
+  xquartz (= 1.1.0)
 
