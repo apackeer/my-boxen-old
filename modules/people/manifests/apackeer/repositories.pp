@@ -35,10 +35,6 @@ class people::apackeer::repositories (
     value => 'diff --cached HEAD^',
   }
 
-  file { '/usr/local/bin':
-    ensure => directory,
-  }
-
   repository { "${my_sourcedir}/dotfiles":
     source => 'apackeer/dotfiles',
   }
