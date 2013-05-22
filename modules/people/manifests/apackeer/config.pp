@@ -14,7 +14,7 @@ class people::apackeer::config (
   include osx::no_network_dsstores
   include osx::global::expand_save_dialog
   include osx::global::expand_print_dialog
-  
+
 
   property_list_key { 'Disable Ducking Autocorrect':
     ensure     => present,
@@ -37,9 +37,18 @@ class people::apackeer::config (
   }
 
   property_list_key { 'Disable Gatekeeper':
-    ensure => present,
-    path   => '/var/db/SystemPolicy-prefs.plist',
-    key    => 'enabled',
-    value  => 'no',
+    ensure  => present,
+    path    => '/var/db/SystemPolicy-prefs.plist',
+    key     => 'enabled',
+    value   => 'no',
+  }
+
+  ##################################
+  # Sublime Configuration Settings #
+  ##################################
+
+  file { 'Preferences.sublime-settings':
+    path    => '${my_homedir}/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings',
+    content => template("people::apackeer/Preferences.sublime-settings")
   }
 }
