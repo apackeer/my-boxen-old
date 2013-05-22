@@ -81,41 +81,41 @@ class people::apackeer::applications {
   # Sublime Text 2 Setup #
   ########################
 
-  sublime_text_2::package { 'Cucumber':
-    source => 'drewda/cucumber-sublime2-bundle'
-  }
+  # sublime_text_2::package { 'Cucumber':
+  #   source => 'drewda/cucumber-sublime2-bundle'
+  # }
 
-  sublime_text_2::package { 'Git':
-    source => 'kemayo/sublime-text-2-git'
-  }
+  # sublime_text_2::package { 'Git':
+  #   source => 'kemayo/sublime-text-2-git'
+  # }
 
-  sublime_text_2::package { 'GitGutter':
-    source => 'jisaacks/GitGutter'
-  }
+  # sublime_text_2::package { 'GitGutter':
+  #   source => 'jisaacks/GitGutter'
+  # }
 
-  sublime_text_2::package { 'Pretty JSON':
-    source => 'dzhibas/SublimePrettyJson'
-  }
+  # sublime_text_2::package { 'Pretty JSON':
+  #   source => 'dzhibas/SublimePrettyJson'
+  # }
 
-  sublime_text_2::package { 'Puppet':
-    source => 'russCloak/SublimePuppet'
-  }
+  # sublime_text_2::package { 'Puppet':
+  #   source => 'russCloak/SublimePuppet'
+  # }
 
-  sublime_text_2::package { 'SideBarEnhancements':
-    source => 'titoBouzout/SideBarEnhancements'
-  }
+  # sublime_text_2::package { 'SideBarEnhancements':
+  #   source => 'titoBouzout/SideBarEnhancements'
+  # }
 
-  sublime_text_2::package { 'Solarized Color Scheme':
-    source => 'SublimeColors/Solarized'
-  }
+  # sublime_text_2::package { 'Solarized Color Scheme':
+  #   source => 'SublimeColors/Solarized'
+  # }
 
-  sublime_text_2::package { 'SublimeLinter':
-    source => 'SublimeLinter/SublimeLinter'
-  }
+  # sublime_text_2::package { 'SublimeLinter':
+  #   source => 'SublimeLinter/SublimeLinter'
+  # }
 
-    sublime_text_2::package { 'Theme - Soda':
-    source => 'buymeasoda/soda-theme/'
-  }
+  #   sublime_text_2::package { 'Theme - Soda':
+  #   source => 'buymeasoda/soda-theme/'
+  # }
 
   #################
   # Vagrant Setup #
