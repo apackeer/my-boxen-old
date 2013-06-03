@@ -47,8 +47,8 @@ class people::apackeer::config (
   # Sublime Configuration Settings #
   ##################################
 
-  file { 'Preferences.sublime-settings':
-    path    => "${my_homedir}/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-    content => template("people/apackeer/Preferences.sublime-settings")
-  }
+  #file { 'Preferences.sublime-settings':
+  #  path    => "${my_homedir}/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+  #  content => template("people/apackeer/Preferences.sublime-settings")
+  #}
 }
